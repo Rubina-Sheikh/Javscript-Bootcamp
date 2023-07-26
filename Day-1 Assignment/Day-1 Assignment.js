@@ -27,7 +27,7 @@ let person = {}
 person = {
     name : 'John',
     age : 30,
-    city : 'New York'=
+    city : 'New York'
 }
 
 //Remove the age property from person
@@ -67,7 +67,7 @@ cars= [
     }
     ]
     
-//Remove the first Object Car Array
+//Remove the first Object from Car Array
 cars.splice(0,1)
 
 //Adding a new Object to cars Array
