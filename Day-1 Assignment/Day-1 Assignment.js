@@ -16,6 +16,7 @@ fruits.push('grape')
 fruits[1] = 'pear'
 
 //Print the final Result
+console.log("------------------------Printing Fruits Array----------------------------")
 console.log(fruits)
 
 //===============================Assignment 2: Object Operations===================
@@ -40,6 +41,7 @@ person.job = 'Engineer'
 person.city = 'San Francisco'
 
 //Print person Object
+console.log("-------------------------Printing Person Object------------------------")
 console.log(person)
 
 //================================Assignment  3: Array of Object Operations===================
@@ -67,7 +69,7 @@ cars= [
     }
     ]
     
-//Remove the first Object from Car Array
+//Remove the first Object Car Array
 cars.splice(0,1)
 
 //Adding a new Object to cars Array
@@ -77,4 +79,5 @@ cars.push({make:'Honda', model:'Civic', year:2020})
 cars[1].model = 'Accord'
 
 //Printing cars Array
+console.log("----------------------Printing Cars Array-------------------------")
 console.log(cars)
